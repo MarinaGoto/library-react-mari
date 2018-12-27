@@ -27,6 +27,9 @@ export default class Docs extends React.Component {
             <div>
                 <Navigation components={componentData.map(component => component.name)} />
                 <ComponentPage component={component} />
+                <a className='love'>
+                    Made with ❤️
+                </a>
             </div>
         )
     }

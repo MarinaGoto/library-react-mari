@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Open, Helvetica, sans-serif;
   color: #666666;
 }
 
@@ -17,7 +17,7 @@ td {
 }
 
 td, th {
-  padding: 10px;
+  padding: 16px;
 }
 
 table {
@@ -49,13 +49,49 @@ table {
   padding: 5px;
 }
 
-.navigation {
-  float: left;
-  width: 250px;
+a {
+  display: block;
   list-style-type: none;
-  padding: 0;
+  margin: 0;
+  padding: 8px 24px;
+}
+
+.navigation {
+  border: 2px solid #f4f6f9;
+  float: left;
+  width: 200px;
+  list-style-type: none;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.navigation a:hover{
+  background-color: #f4f6f9;
+  color: #666666;
 }
 
 .componentpage {
   margin-left: 275px;
+}
+
+button {
+  background-color: transparent;
+  color: black;
+  padding: 8px 24px;
+  border: 2px solid #555555;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.love{
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
 }
