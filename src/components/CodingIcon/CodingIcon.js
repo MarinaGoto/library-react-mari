@@ -3,8 +3,8 @@ import React from 'react';
 /** SVG Coding Icon */
 function CodingIcon(){
     return(
-        <svg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg'
-             viewBox='0 0 446 46'>
+        <svg width="36" height="36" id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg'
+             viewBox="10 10 32 22">
             <g id='Icon'>
                 <rect id='Security_Space' data-name='Security Space' width='46' height='46'
                       fill='#fff' opacity='0' />

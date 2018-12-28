@@ -24,12 +24,12 @@ export default class Docs extends React.Component {
         const component = route ? componentData.filter( component => component.name === route)[0] : componentData[0];
 
         return (
-            <div>
+            <div className='wrapper'>
                 <Navigation components={componentData.map(component => component.name)} />
                 <ComponentPage component={component} />
-                <a className='love'>
-                    Made with ❤️
-                </a>
+                <div className='love'>
+                    Made with <span role="img" aria-label="love">❤</span>
+                </div>
             </div>
         )
     }
